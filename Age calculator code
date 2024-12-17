@@ -1,0 +1,15 @@
+# This is a comment in Python
+name = input("Enter your name: ")  # Taking user input
+from datetime import datetime
+
+# Get the current year
+today = datetime.today()
+
+# Input for year of birth
+Year_of_birth = int(input("Enter your year of birth (YYYY): "))
+
+# Calculate age
+age = today.year - Year_of_birth
+
+
+print("Hello, " + name + "! I am ", age, "years old.")
